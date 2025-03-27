@@ -31,5 +31,5 @@ jobs:
           echo "EMPTY_USERNAME=${{ secrets.EMPTY_USERNAME }}" >> src/main/resources/config.qa.properties
           echo "EMPTY_PASSWORD=${{ secrets.EMPTY_PASSWORD }}" >> src/main/resources/config.qa.properties
 
-      - name: Build and Run Tests in QA Environment
+      - name: Build and Run Tests
         run: mvn clean install -Denv=qa

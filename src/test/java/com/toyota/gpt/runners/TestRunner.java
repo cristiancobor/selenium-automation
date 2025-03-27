@@ -13,7 +13,7 @@ import org.testng.annotations.DataProvider;
                 "rerun:target/rerun.txt"  // Save failed tests
         },
         monochrome = true,
-        tags = "@Logout"
+        tags = "@Positive or @Negative"
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {

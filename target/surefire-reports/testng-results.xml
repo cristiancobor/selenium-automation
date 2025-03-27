@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-27T13:51:29 COT" name="Surefire suite" finished-at="2025-03-27T13:51:48 COT" duration-ms="18450">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.toyota.gpt.runners.TestRunner@6adbc9d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-27T13:51:29 COT" name="Surefire test" finished-at="2025-03-27T13:51:48 COT" duration-ms="18450">
+      <class name="com.toyota.gpt.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.toyota.gpt.runners.TestRunner@6adbc9d]" started-at="2025-03-27T13:51:29 COT" name="setUpClass" finished-at="2025-03-27T13:51:29 COT" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c101cc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.toyota.gpt.runners.TestRunner@6adbc9d]" started-at="2025-03-27T13:51:29 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-27T13:51:47 COT" duration-ms="18063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs out successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Authentication"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.toyota.gpt.runners.TestRunner@6adbc9d]" started-at="2025-03-27T13:51:47 COT" name="tearDownClass" finished-at="2025-03-27T13:51:48 COT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.toyota.gpt.runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
